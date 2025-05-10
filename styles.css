@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    background: #f5f7fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #333;
+}
+
+.container {
+    background: #ffffff;
+    padding: 50px 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 400px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 25px;
+}
+
+select, button {
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+    margin: 15px 0;
+    outline: none;
+    width: 100%;
+    box-sizing: border-box;
+    transition: transform 0.2s ease, background 0.3s ease;
+}
+
+select {
+    background: #f0f0f0;
+    color: #333;
+}
+
+button {
+    background: #66a6ff;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+button:hover {
+    background: #4b8df8;
+    transform: scale(1.05);
+}
+
+#prompt {
+    margin-top: 30px;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #555;
+    min-height: 60px;
+    transition: opacity 0.3s ease;
+}
